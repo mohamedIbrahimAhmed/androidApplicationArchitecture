@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/edPostTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter post title" />
+
+
+        <EditText
+            android:id="@+id/edPostBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter post body" />
+
+
+        <EditText
+            android:id="@+id/edUserId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter user Id " />
+
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Submit" />
+
+
+        <ProgressBar
+            android:id="@+id/pbLoading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</layout>
